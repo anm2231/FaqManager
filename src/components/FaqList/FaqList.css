@@ -1,0 +1,71 @@
+.FaqList-container {
+  margin-top: 70px;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #ccefff, #e6f7ff);
+}
+
+
+.FaqList-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #004466;
+  font-weight: 800;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+
+.faq-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.faq-card:hover {
+  transform: translateY(-3px);
+}
+
+
+/* .faq-card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.3rem;
+  color: #1f1f1c;
+  font-weight: 700;
+} */
+ .faq-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+
+ .faq-card p {
+  margin: 0 0 1rem;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+.faq-card button {
+  background: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.faq-card button:hover {
+  background: #004080;
+}
+
+
