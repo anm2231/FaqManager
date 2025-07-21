@@ -39,7 +39,7 @@ A full-stack FAQ Management System with role-based access, bookmarking, and admi
 Use the provided `faqdb.sql` file to import the schema and sample data:
 ```bash
 mysql -u youruser -p yourdb < faqdb.sql
-
+```
 
  💾 Project Structure
 faq-management-app/
@@ -58,3 +58,4 @@ cd backend/BackendApplication
 cd frontend/reactfaq
 npm install
 npm run dev
+```
