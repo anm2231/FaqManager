@@ -43,14 +43,14 @@ mysql -u youruser -p yourdb < faqdb.sql
 ---
 
 ## 💾 Project Structure
-
-- faq-management-app/
-- ├── backend/                # Spring Boot App
-- │   └── BackendApplication/
-- ├── frontend/               # React App
-- │   └── reactfaq/
-- ├── faqdb.sql
-
+```
+ faq-management-app/
+ ├── backend/                # Spring Boot App
+ │   └── BackendApplication/
+ ├── frontend/               # React App
+ │   └── reactfaq/
+ ├── faqdb.sql
+```
 ---
 
 ## 🚀 Getting Started
