@@ -40,16 +40,16 @@ Use the provided `faqdb.sql` file to import the schema and sample data:
 ```bash
 mysql -u youruser -p yourdb < faqdb.sql
 ```
-
+---
 ## 💾 Project Structure
 
-faq-management-app/
+ faq-management-app/
 ├── backend/                # Spring Boot App
 │   └── BackendApplication/
 ├── frontend/               # React App
 │   └── reactfaq/
 ├── faqdb.sql
-
+---
 ## 🚀 Getting Started
 ```bash
 
