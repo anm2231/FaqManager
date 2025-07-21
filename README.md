@@ -63,3 +63,5 @@ cd frontend/reactfaq
 npm install
 npm run dev
 ```
+
+<img width="1920" height="882" alt="Screenshot (586)" src="https://github.com/user-attachments/assets/ac686e38-2e1e-4952-a1d7-a1b6474a0e16" />
