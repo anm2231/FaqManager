@@ -1,0 +1,78 @@
+.register-container {
+  min-height: 100vh;
+  background: #b2c4a4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 90px;
+}
+
+.register-container h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: #222;
+  text-align: center;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+.register-form {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  padding: 0.9rem 0.5rem;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.register-form label {
+  font-weight: 600;
+  color: #222;
+  text-align: left;
+}
+
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 0.9rem; 
+  border: 1.5px solid #b2c4a4;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background: #f7f7f7;
+  transition: border 0.2s;
+}
+
+.register-form input:focus,
+.register-form select:focus {
+  border-color: #095;
+  outline: none;
+  background: #e6f7ee;
+}
+
+.register-form button {
+  background: #222;
+  color: #fff;
+  padding: 0.8rem 0.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.register-form button:hover {
+  background: #095;
+}
+
+.register-container p {
+  margin-top: 1.5rem;
+  color: #222;
+  text-align: center;
+}
