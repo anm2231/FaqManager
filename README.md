@@ -4,7 +4,7 @@ A full-stack FAQ Management System with role-based access, bookmarking, and admi
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React.js (Vite), Axios, React Router
 - **Backend**: Spring Boot (Java), Spring Security, JWT Authentication
@@ -12,21 +12,21 @@ A full-stack FAQ Management System with role-based access, bookmarking, and admi
 
 ---
 
-## 📌 Features
+##  Features
 
-### 🌐 Public / User:
+###  Public / User:
 - View FAQs by category or tag
 - Bookmark FAQs
 - User registration and login (JWT)
 
-### 🔐 Admin:
+###  Admin:
 - Add, Edit, Delete FAQs
 - View all users
 - Admin-only dashboard access
 
 ---
 
-## 🔒 Authentication
+##  Authentication
 
 - Role-based: `USER` and `ADMIN`
 - JWT used for secure API access
@@ -34,7 +34,7 @@ A full-stack FAQ Management System with role-based access, bookmarking, and admi
 
 ---
 
-## 💾 Database
+##  Database
 
 Use the provided `faqdb.sql` file to import the schema and sample data:
 ```bash
@@ -42,7 +42,7 @@ mysql -u youruser -p yourdb < faqdb.sql
 ```
 ---
 
-## 💾 Project Structure
+##  Project Structure
 ```
  faq-management-app/
  ├── backend/                # Spring Boot App
@@ -53,7 +53,7 @@ mysql -u youruser -p yourdb < faqdb.sql
 ```
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 ```bash
 
 cd backend/BackendApplication
